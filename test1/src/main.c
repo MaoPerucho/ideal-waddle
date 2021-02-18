@@ -28,7 +28,7 @@ void app_main(void)
         gpio_set_level(PIN,isOn);
         vTaskDelay(300);
         gpio_set_level(PIN,0);
-        vTaskDelay(500);
+        vTaskDelay(1000);
         /*
 
         experimentos
